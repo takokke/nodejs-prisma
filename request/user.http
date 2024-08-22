@@ -1,0 +1,25 @@
+### ユーザー取得
+GET http://localhost:3000/api/users
+
+### ユーザー登録
+POST  http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "email": "test1@example.com",
+    "name": "test1"
+}
+
+### 特定のユーザー取得
+GET http://localhost:3000/api/users/2
+
+### 特定ユーザーの更新
+PUT http://localhost:3000/api/users/1
+Content-Type: application/json
+
+{
+    "name": "test1qqq"
+}
+
+### 特定ユーザーの削除
+DELETE  http://localhost:3000/api/users/1

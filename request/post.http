@@ -1,0 +1,9 @@
+###
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "title": "Prismaの基本",
+    "content": "リレーションショッピンの設定を確認中",
+    "authorId": 2
+}
